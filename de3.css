@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo{
+    height:100px;
+    text-align: center;
+    padding: 30px;
+}
+
+header{
+    height: 36px;
+    display:flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    line-height: 36px;
+
+}
+a {
+    text-decoration: none;
+  }
+
+nav li{
+   padding-left: 25px;
+}
+
+form {
+   padding-right: 25px;
+}
+.search{
+    width: 200px;
+    height: 25px;
+}
+.timkiem{
+    width: 80px;
+    height: 25px;
+   background-color: #db2704;
+   color: #fff;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.listsp{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+h2{
+    margin-top: 30px;
+}
+.sp1{
+    overflow: hidden;
+    border: 1px solid #262323;
+    margin: 20px 15px 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h3{
+    margin-top: 10px;
+}
+
+.giasp{
+    color: #db2704;
+}
+strike{
+    color: black;
+    font-size: small;
+    margin-left: 15px;
+}
+
+.dathang{
+    width: 150px;
+    height: 32px;
+   background-color: #000;
+   color: #fff;
+   margin: 10px;
+}
+
+footer{
+    line-height: 70px;
+    text-align: center;
+    background-color:rgb(0, 4, 255);
+    color: #fff;
+    font-size: x-large;
+    margin-top: 300px;
+}
+
+.sp1 img:hover{
+    opacity: 0.5;
+    transition: 1s ease-in-out;
+    transform: rotate(360deg) scale(1.1);
+}
